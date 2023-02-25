@@ -11,6 +11,7 @@ const Mainroutes = () => {
         <Route path="/" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/chats" element={<Chatpage />} />
+        
       </Routes>
     </div>
   );
